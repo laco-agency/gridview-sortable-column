@@ -1,0 +1,31 @@
+{
+  "name": "laco-agency/gridview-sortable-column",
+  "description": "Yii2 gridview sortable column",
+  "homepage": "http://github.com/laco-agency/gridview-sortable-column",
+  "keywords": [
+    "yii2",
+    "gridview",
+    "sorting",
+    "sortable",
+    "jqueryui",
+    "dnd",
+    "grid"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Laco agency",
+      "email": "info@laco.pro",
+      "homepage": "http://laco.pro"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "laco\\gridview\\sortable\\": "src"
+    }
+  }
+}
