@@ -6,7 +6,7 @@ use yii\web\AssetBundle;
 
 class SortableAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/laco-agency/gridview-sortable-column/assets/files';
+    public $sourcePath = '@vendor/laco-agency/gridview-sortable-column/src/assets/files';
 
     public $js = [
         'js/sortable-widgets.js',
@@ -17,6 +17,6 @@ class SortableAsset extends AssetBundle
     ];
 
     public $depends = [
-        'laco\sortable\assets\RubaxaAsset',
+        'laco\gridview\sortable\assets\RubaxaAsset',
     ];
 }

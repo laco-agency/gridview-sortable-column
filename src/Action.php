@@ -7,7 +7,7 @@ use yii\db\ActiveRecord;
 /**
  * Class Action
  */
-class Action extends \yii\base\Action
+class Action extends \yii\rest\Action
 {
     /** @var string */
     public $orderAttribute;

@@ -6,7 +6,7 @@ use yii\web\AssetBundle;
 
 class RubaxaAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/laco-agency/gridview-sortable-column/assets/files';
+    public $sourcePath = '@vendor/laco-agency/gridview-sortable-column/src/assets/files';
 
     public $js = [
         '//cdnjs.cloudflare.com/ajax/libs/Sortable/1.2.1/Sortable.js',

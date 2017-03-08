@@ -2,6 +2,12 @@
 
 Позволяет производить сортировку строк таблиц GridView перетаскиванием мышкой.
 
+## Installing
+
+```
+composer require laco-agency/gridview-sortable-column:~v0.
+```
+
 ## Usage
 Добавить настройку
 
