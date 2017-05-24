@@ -20,8 +20,7 @@ class Column extends \yii\grid\Column
     protected function renderDataCellContent($model, $key, $index)
     {
         return Html::tag('div', '&#9776;', [
-            'class' => 'sortable-widget-handler',
-            'data-primary-key' => $model->primaryKey,
+            'class' => 'sortable-widget-handler'
         ]);
     }
 }

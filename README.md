@@ -62,11 +62,6 @@ echo \yii\grid\GridView::widget([
             'class' => \laco\sortable\Column::className(),
             'url' => \yii\helpers\Url::toRoute(['controller/sorting-action'])
         ],
-    ],
-    'options' => [
-        'data' => [
-            'sortable-widget' => 1
-        ]
-    ],
+    ]
 ]);
 ```

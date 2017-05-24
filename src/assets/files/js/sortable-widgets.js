@@ -1,5 +1,5 @@
 function initSortableWidgets(url) {
-  $('[data-sortable-widget=1] tbody').sortable({
+  $('tbody').sortable({
     animation: 300,
     handle: '.sortable-widget-handler',
     dataIdAttr: 'data-key',

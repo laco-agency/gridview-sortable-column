@@ -28,8 +28,15 @@ class Action extends \yii\rest\Action
     public function getPrimaryKeyList()
     {
         $list = [];
+        /* @var $class \yii\db\ActiveRecord */
+        $class = $this->modelClass;
+        $pks = $class::primaryKey();
         foreach (\Yii::$app->request->post('sorting') as $pk) {
-            $list[] = json_decode($pk, true);
+            if (count($pks) === 1) {
+                $list[] = [$pks[0] => $pk];
+            } else {
+                $list[] = json_decode($pk, true);
+            }
         }
 
         return $list;
