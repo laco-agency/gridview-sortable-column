@@ -9,7 +9,7 @@ class RubaxaAsset extends AssetBundle
     public $sourcePath = '@vendor/laco-agency/gridview-sortable-column/src/assets/files';
 
     public $js = [
-        '//cdnjs.cloudflare.com/ajax/libs/Sortable/1.2.1/Sortable.js',
+        'js/sortable.1.4.0.js',
         'js/jquery.binding.js',
     ];
 
